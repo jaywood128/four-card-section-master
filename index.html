@@ -1,45 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
 </head>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 <body>
-  <h1>This small change </h1>
-  Reliable, efficient delivery
-  Powered by Technology
+  <div class="header-container">
+    <h1>Reliable, efficient delivery </br>
+      <h1><strong>Powered by Technology</strong></h1>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+      <p class="paragraph-longer-lines">Our Artificial Intelligence powered tools use millions of project data points
+        to ensure that your project is successful</p>
+  </div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+  <div class="card-container">
+    <div class="cyan-card">
+      <h2> <strong>Supervisor</strong></h2>
+      <p class="paragraph-small-grey-text">Monitors activity to identify project roadblocks</p>
+      <img src="images/icon-supervisor.svg"></img>
+    </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+    <div class="red-card">
+      <h2><strong>Team Builder</strong></h2>
+      <p class="paragraph-small-grey-text">Scans our talent network to create the optimal team for your project</p>
+      <img src="images/icon-team-builder.svg"></img>
+      <div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+        <div class="gold-card">
+          <h2><strong>Karama</strong></h2>
+          <p class="paragraph-small-grey-text">Regularly evaluates our talent to ensure quality</p>
+          <img src="images/icon-karama.svg"></img>
+        </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+        <div class="darker-blue-card">
+          <h2><strong>Calculator</strong></h2>
+          <p class="paragraph-small-grey-text">Uses data from past projects to provide better delivery estimates</p>
+          <img src="images/icon-calculator.svg"></img>
+        </div>
+      </div>
 
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+
+      <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Your Name Here</a>.
+        </p>
+      </footer>
 </body>
+
 </html>
