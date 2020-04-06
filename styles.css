@@ -9,28 +9,39 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .header-container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-strong{ font-weight: 600 !important; }
+
+.header-light{ font-weight: 200 !important}
+
+p { color: hsl(229, 6%, 66%);}
+
+.paragraph-small-grey-text{ font-size: 14px;}
+
+
+.card-container{ 
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1230px;
+  margin: 0 auto;
 }
 
-.header-container>p {
-  color: hsl(229, 6%, 66%);
-}
-
-/* .card-container{ 
-  display: flex; 
-} */
+div > img{ float: right }
 
 .cyan-card {
   border-radius: 5px;
   padding: 20px;
   width: 350px;
   height: 250px; 
-  float: left;
   box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -38,7 +49,8 @@ body {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
-  background-color: #fff;
+  background-color: hsl(0, 0%, 98%);
+  margin: 15px;
 }
 
 .red-card{
@@ -46,8 +58,6 @@ body {
   padding: 20px;
   width: 350px;
   height: 250px;
-  margin: 0 auto;
-  align-items: center;
   box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -55,7 +65,8 @@ body {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
-  background-color: #fff;
+  background-color: hsl(0, 0%, 98%);
+  margin: 15px;
 
 }
 
@@ -64,7 +75,6 @@ body {
   padding: 20px;
   width: 350px;
   height: 250px;
-  margin-left: 100px;
   box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -72,7 +82,8 @@ body {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
-  background-color: #fff;
+  background-color: hsl(0, 0%, 98%);
+  margin: 15px;
 
 }
 
@@ -81,7 +92,6 @@ body {
   padding: 20px;
   width: 350px;
   height: 250px;
-  margin-left: 100px;
   box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -89,6 +99,9 @@ body {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
-  background-color: #fff;
+  background-color: hsl(0, 0%, 98%);
+  margin: 15px;
 
 }
+
+footer{ text-align: center;}
