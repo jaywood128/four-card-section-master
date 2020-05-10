@@ -12,20 +12,27 @@ body {
   background-color: hsl(0, 0%, 98%);
 }
 
+.content { margin: 100px 0; }
+
+
 .header-container {
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
 }
 
-.header-strong{ font-weight: 600 !important; }
+
+.header-strong{ 
+  font-weight: 600 !important; 
+  color: hsl(234, 12%, 34%);
+}
 
 .header-light{ font-weight: 200 !important}
 
-p { color: hsl(229, 6%, 66%);}
-
-.paragraph-small-grey-text{ font-size: 14px;}
-
+.longer { 
+  color:hsl(229, 6%, 66%);
+  font-size: 14px;
+}
 
 .card-container{ 
   display: flex;
@@ -100,7 +107,7 @@ div > img{ float: right }
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
   background-color: hsl(0, 0%, 98%);
-  margin: 15px;
+  margin: -80px 10px;
 
 }
 
